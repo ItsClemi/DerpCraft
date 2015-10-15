@@ -225,4 +225,7 @@
       <Filter>Common\Command</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Storage.png" />
+  </ItemGroup>
 </Project>

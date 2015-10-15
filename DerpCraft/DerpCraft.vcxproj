@@ -191,6 +191,9 @@
     <ClCompile Include="World.cpp" />
     <ClCompile Include="WorldManager.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Storage.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
