@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{31f3e05a-f1fb-4f02-a2fd-f310648a59e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{5dc06c84-346d-4ebb-a294-402ea6814e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File\FileParser">
+      <UniqueIdentifier>{fcae254d-a897-4a19-a4f6-ee35b0c81b66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{0c4be8c3-67e0-4b9f-8f98-31790f6d3758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\base">
+      <UniqueIdentifier>{cbfb1a47-0f47-42c5-af38-f07357d50479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Handler">
+      <UniqueIdentifier>{c7e53aff-f8d8-41dc-adc0-fbee6ac54374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{683c4430-a318-4dc9-a554-1b4dd06aec36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mover">
+      <UniqueIdentifier>{ee698670-e149-4888-b319-a23567a15850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mover\MoverBase">
+      <UniqueIdentifier>{ef61998c-dea2-4b34-a614-9ad0b61a486f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{6df165a1-15a6-46b6-81f5-88c57ef37620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\base">
+      <UniqueIdentifier>{3a6d626d-f126-4830-a861-8a62ae04902a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Manager">
+      <UniqueIdentifier>{36fea4c7-b3ec-4338-b024-ecb0c6be6897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Log">
+      <UniqueIdentifier>{3373a10c-7c8f-4a0e-b7e4-f7fe7514435e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{3ebc8092-20a5-4e34-9f60-d7822a31d73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Callback">
+      <UniqueIdentifier>{b0edaca7-adb3-484a-ae9e-9f4da62274a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Generator">
+      <UniqueIdentifier>{94320590-49e6-46b1-9b7e-9eea298b52f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Block">
+      <UniqueIdentifier>{d2df996e-62a3-466c-abac-7e4b3f8bfc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{cd451b07-a283-4eec-acbd-b30e7a29e726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Command">
+      <UniqueIdentifier>{f247aaf9-cbbe-4a33-9d94-42434e4deee5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="FileParser.h">
+      <Filter>File\FileParser</Filter>
+    </ClInclude>
+    <ClInclude Include="IFile.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkBase.h">
+      <Filter>Network\base</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Mover</Filter>
+    </ClInclude>
+    <ClInclude Include="Mover.h">
+      <Filter>Mover\MoverBase</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldManager.h">
+      <Filter>World\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="IPacketBuff.h">
+      <Filter>Network\base</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketList.h">
+      <Filter>Network\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Common\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHandler.h">
+      <Filter>Network\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceCenter.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CallbackWatcher.h">
+      <Filter>Common\Callback</Filter>
+    </ClInclude>
+    <ClInclude Include="IChunk.h">
+      <Filter>World\base</Filter>
+    </ClInclude>
+    <ClInclude Include="IWorld.h">
+      <Filter>World\base</Filter>
+    </ClInclude>
+    <ClInclude Include="IMath.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IBlock.h">
+      <Filter>World\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorBase.h">
+      <Filter>World\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorFlat.h">
+      <Filter>World\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorSky.h">
+      <Filter>World\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="IMover.h">
+      <Filter>Mover\MoverBase</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManager.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Query.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorNether.h">
+      <Filter>World\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="IStruct.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Common\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="IDatabase.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="IQuery.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Config.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="FileParser.cpp">
+      <Filter>File\FileParser</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkBase.cpp">
+      <Filter>Network\base</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHandler.cpp">
+      <Filter>Network\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Mover</Filter>
+    </ClCompile>
+    <ClCompile Include="Mover.cpp">
+      <Filter>Mover\MoverBase</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldManager.cpp">
+      <Filter>World\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Common\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceCenter.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CallbackWatcher.cpp">
+      <Filter>Common\Callback</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratorFlat.cpp">
+      <Filter>World\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="IChunk.cpp">
+      <Filter>World\base</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratorSky.cpp">
+      <Filter>World\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Query.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratorNether.cpp">
+      <Filter>World\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Common\Command</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
