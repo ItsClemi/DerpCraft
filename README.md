@@ -1,6 +1,6 @@
 # DerpCraft
 
-DerpCraft is a Minecraft Server Emulator for the client version: 1.5.1 which i wrote back in 2013 with a friend.
+DerpCraft is a Minecraft Server Emulator for the client version: 1.5.1 which i wrote with a friend back in 2013.
 It contains the most basic stuff like: packet handling, world creation, user manager, etc...
 
 But the heart of the server is an algorithm i called 'Minecraft Chunk Chain Storage'.
